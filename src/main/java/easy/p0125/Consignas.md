@@ -29,5 +29,5 @@ Dada una cadena s, devuelve true si es un palíndromo, o false en caso contrario
 
 ## Restricciones
 
-- 1 <= s.length <= 2 * 10⁵
+- 1 <= s.length <= 2 \* 10⁵
 - s consiste solo en caracteres ASCII imprimibles.
