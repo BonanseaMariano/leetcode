@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Dada una cadena s que contiene solo los caracteres '(', ')', '{', '}', '[' y ']', determina si la cadena de entrada es válida.
+Dada una cadena `s` que contiene solo los caracteres `'('`, `')'`, `'{'`, `'}'`, `'['` y `']'`, determina si la cadena de entrada es válida.
 
 Una cadena de entrada es válida si:
 
@@ -14,25 +14,25 @@ Una cadena de entrada es válida si:
 
 ### Ejemplo 1:
 
-- **Input**: s = "()"
-- **Output**: true
+- **Input**: `s = "()"`
+- **Output**: `true`
 
 ### Ejemplo 2:
 
-- **Input**: s = "()[]{}"
-- **Output**: true
+- **Input**: `s = "()[]{}"`
+- **Output**: `true`
 
 ### Ejemplo 3:
 
-- **Input**: s = "(]"
-- **Output**: false
+- **Input**: `s = "(]"`
+- **Output**: `false`
 
 ### Ejemplo 4:
 
-- **Input**: s = "([)]"
-- **Output**: false
+- **Input**: `s = "([)]"`
+- **Output**: `false`
 
 ## Restricciones
 
-- 1 <= s.length <= 104
-- s solo contiene los caracteres '(', ')', '{', '}', '[' y ']'
+- `1 <= s.length <= 104`
+- `s` solo contiene los caracteres `'('`, `')'`, `'{'`, `'}'`, `'['` y `']'`

@@ -29,18 +29,18 @@ for (int i = 0; i < actualLength; i++) {
 ## Ejemplos
 
 ### Ejemplo 1:
-- **Input:** nums = [3,2,2,3], val = 3
-- **Output:** 2, nums = [2,2,_,_]
-- **Explicación:** Tu función debe retornar k = 2, con los primeros dos elementos de nums siendo 2.
-  No importa lo que dejes más allá del k retornado.
+- **Input:** `nums = [3,2,2,3]`, `val = 3`
+- **Output:** `2`, `nums = [2,2,_,_]`
+- **Explicación:** Tu función debe retornar `k = 2`, con los primeros dos elementos de `nums` siendo `2`.
+  No importa lo que dejes más allá del `k` retornado.
 
 ### Ejemplo 2:
-- **Input:** nums = [0,1,2,2,3,0,4,2], val = 2
-- **Output:** 5, nums = [0,1,4,0,3,_,_,_]
-- **Explicación:** Tu función debe retornar k = 5, con los primeros cinco elementos conteniendo 0, 0, 1, 3, y 4.
+- **Input:** `nums = [0,1,2,2,3,0,4,2]`, `val = 2`
+- **Output:** `5`, `nums = [0,1,4,0,3,_,_,_]`
+- **Explicación:** Tu función debe retornar `k = 5`, con los primeros cinco elementos conteniendo `0`, `0`, `1`, `3`, y `4`.
   Los elementos pueden ser retornados en cualquier orden.
 
 ## Restricciones
-- 0 <= nums.length <= 100
-- 0 <= nums[i] <= 50
-- 0 <= val <= 100
+- `0 <= nums.length <= 100`
+- `0 <= nums[i] <= 50`
+- `0 <= val <= 100`

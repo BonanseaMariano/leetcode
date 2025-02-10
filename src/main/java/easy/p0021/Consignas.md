@@ -14,21 +14,21 @@ Devuelve la cabecera de la lista enlazada fusionada.
 
 ![alt text](image.png)
 
-- **Input**: list1 = [1,2,4], list2 = [1,3,4]
-- **Output**: [1,1,2,3,4,4]
+- **Input**: `list1 = [1,2,4]`, `list2 = [1,3,4]`
+- **Output**: `[1,1,2,3,4,4]`
 
 ### Ejemplo 2:
 
-- **Input**: list1 = [], list2 = []
-- **Output**: []
+- **Input**: `list1 = []`, `list2 = []`
+- **Output**: `[]`
 
 ### Ejemplo 3:
 
-- **Input**: list1 = [], list2 = [0]
-- **Output**: [0]
+- **Input**: `list1 = []`, `list2 = [0]`
+- **Output**: `[0]`
 
 ## Restricciones
 
-- El número de nodos en ambas listas está en el rango [0, 50]
-- -100 <= Node.val <= 100
-- Tanto list1 como list2 están ordenadas en orden no decreciente
+- El número de nodos en ambas listas está en el rango `[0, 50]`
+- `-100 <= Node.val <= 100`
+- Tanto `list1` como `list2` están ordenadas en orden no decreciente
