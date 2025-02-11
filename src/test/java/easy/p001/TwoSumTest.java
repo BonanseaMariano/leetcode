@@ -3,6 +3,8 @@ package easy.p001;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import org.junit.jupiter.api.Test;
 
+import easy.p0001.TwoSum;
+
 class TwoSumTest {
 
     private TwoSum solution = new TwoSum();
